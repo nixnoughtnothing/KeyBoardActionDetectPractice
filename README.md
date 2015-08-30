@@ -1,8 +1,12 @@
 # KeyBoardActionDetectPractice
 
+### Demo
+
 ![](https://github.com/nixnoughtnothing/KeyBoardActionDetectPractice/blob/master/readme_images/image1.png)
 ![](https://github.com/nixnoughtnothing/KeyBoardActionDetectPractice/blob/master/readme_images/image2.png)
 
+
+### Code
 ```Swift
 // Add the codes below in your viewcontroller to handle your keyboard actions
 override func viewWillAppear(animated: Bool) {
