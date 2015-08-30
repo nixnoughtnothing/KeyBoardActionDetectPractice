@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BADB4D61B91BCE600F83202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BADB4D51B91BCE600F83202 /* AppDelegate.swift */; };
+		5BADB4D81B91BCE700F83202 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BADB4D71B91BCE700F83202 /* WebViewController.swift */; };
+		5BADB4DB1B91BCE800F83202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BADB4D91B91BCE800F83202 /* Main.storyboard */; };
+		5BADB4DD1B91BCE800F83202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BADB4DC1B91BCE800F83202 /* Assets.xcassets */; };
+		5BADB4E01B91BCE800F83202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BADB4DE1B91BCE800F83202 /* LaunchScreen.storyboard */; };
+		5BADB4EB1B91BCEF00F83202 /* KeyBoardActionDetectPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BADB4EA1B91BCEF00F83202 /* KeyBoardActionDetectPracticeTests.swift */; };
+		5BADB4F61B91BCEF00F83202 /* KeyBoardActionDetectPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BADB4F51B91BCEF00F83202 /* KeyBoardActionDetectPracticeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BADB4E71B91BCEF00F83202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BADB4CA1B91BCE300F83202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BADB4D11B91BCE400F83202;
+			remoteInfo = KeyBoardActionDetectPractice;
+		};
+		5BADB4F21B91BCEF00F83202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BADB4CA1B91BCE300F83202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BADB4D11B91BCE400F83202;
+			remoteInfo = KeyBoardActionDetectPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BADB4D21B91BCE500F83202 /* KeyBoardActionDetectPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyBoardActionDetectPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BADB4D51B91BCE600F83202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BADB4D71B91BCE700F83202 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		5BADB4DA1B91BCE800F83202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BADB4DC1B91BCE800F83202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BADB4DF1B91BCE800F83202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BADB4E11B91BCE800F83202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BADB4E61B91BCEF00F83202 /* KeyBoardActionDetectPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyBoardActionDetectPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BADB4EA1B91BCEF00F83202 /* KeyBoardActionDetectPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardActionDetectPracticeTests.swift; sourceTree = "<group>"; };
+		5BADB4EC1B91BCEF00F83202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BADB4F11B91BCEF00F83202 /* KeyBoardActionDetectPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyBoardActionDetectPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BADB4F51B91BCEF00F83202 /* KeyBoardActionDetectPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardActionDetectPracticeUITests.swift; sourceTree = "<group>"; };
+		5BADB4F71B91BCEF00F83202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BADB4CF1B91BCE400F83202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BADB4E31B91BCEF00F83202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BADB4EE1B91BCEF00F83202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BADB4C91B91BCE200F83202 = {
+			isa = PBXGroup;
+			children = (
+				5BADB4D41B91BCE500F83202 /* KeyBoardActionDetectPractice */,
+				5BADB4E91B91BCEF00F83202 /* KeyBoardActionDetectPracticeTests */,
+				5BADB4F41B91BCEF00F83202 /* KeyBoardActionDetectPracticeUITests */,
+				5BADB4D31B91BCE500F83202 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BADB4D31B91BCE500F83202 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BADB4D21B91BCE500F83202 /* KeyBoardActionDetectPractice.app */,
+				5BADB4E61B91BCEF00F83202 /* KeyBoardActionDetectPracticeTests.xctest */,
+				5BADB4F11B91BCEF00F83202 /* KeyBoardActionDetectPracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BADB4D41B91BCE500F83202 /* KeyBoardActionDetectPractice */ = {
+			isa = PBXGroup;
+			children = (
+				5BADB4D51B91BCE600F83202 /* AppDelegate.swift */,
+				5BADB4D71B91BCE700F83202 /* WebViewController.swift */,
+				5BADB4D91B91BCE800F83202 /* Main.storyboard */,
+				5BADB4DC1B91BCE800F83202 /* Assets.xcassets */,
+				5BADB4DE1B91BCE800F83202 /* LaunchScreen.storyboard */,
+				5BADB4E11B91BCE800F83202 /* Info.plist */,
+			);
+			path = KeyBoardActionDetectPractice;
+			sourceTree = "<group>";
+		};
+		5BADB4E91B91BCEF00F83202 /* KeyBoardActionDetectPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BADB4EA1B91BCEF00F83202 /* KeyBoardActionDetectPracticeTests.swift */,
+				5BADB4EC1B91BCEF00F83202 /* Info.plist */,
+			);
+			path = KeyBoardActionDetectPracticeTests;
+			sourceTree = "<group>";
+		};
+		5BADB4F41B91BCEF00F83202 /* KeyBoardActionDetectPracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BADB4F51B91BCEF00F83202 /* KeyBoardActionDetectPracticeUITests.swift */,
+				5BADB4F71B91BCEF00F83202 /* Info.plist */,
+			);
+			path = KeyBoardActionDetectPracticeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BADB4D11B91BCE400F83202 /* KeyBoardActionDetectPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BADB4FA1B91BCEF00F83202 /* Build configuration list for PBXNativeTarget "KeyBoardActionDetectPractice" */;
+			buildPhases = (
+				5BADB4CE1B91BCE400F83202 /* Sources */,
+				5BADB4CF1B91BCE400F83202 /* Frameworks */,
+				5BADB4D01B91BCE400F83202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyBoardActionDetectPractice;
+			productName = KeyBoardActionDetectPractice;
+			productReference = 5BADB4D21B91BCE500F83202 /* KeyBoardActionDetectPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BADB4E51B91BCEF00F83202 /* KeyBoardActionDetectPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BADB4FD1B91BCEF00F83202 /* Build configuration list for PBXNativeTarget "KeyBoardActionDetectPracticeTests" */;
+			buildPhases = (
+				5BADB4E21B91BCEF00F83202 /* Sources */,
+				5BADB4E31B91BCEF00F83202 /* Frameworks */,
+				5BADB4E41B91BCEF00F83202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BADB4E81B91BCEF00F83202 /* PBXTargetDependency */,
+			);
+			name = KeyBoardActionDetectPracticeTests;
+			productName = KeyBoardActionDetectPracticeTests;
+			productReference = 5BADB4E61B91BCEF00F83202 /* KeyBoardActionDetectPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BADB4F01B91BCEF00F83202 /* KeyBoardActionDetectPracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BADB5001B91BCEF00F83202 /* Build configuration list for PBXNativeTarget "KeyBoardActionDetectPracticeUITests" */;
+			buildPhases = (
+				5BADB4ED1B91BCEF00F83202 /* Sources */,
+				5BADB4EE1B91BCEF00F83202 /* Frameworks */,
+				5BADB4EF1B91BCEF00F83202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BADB4F31B91BCEF00F83202 /* PBXTargetDependency */,
+			);
+			name = KeyBoardActionDetectPracticeUITests;
+			productName = KeyBoardActionDetectPracticeUITests;
+			productReference = 5BADB4F11B91BCEF00F83202 /* KeyBoardActionDetectPracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BADB4CA1B91BCE300F83202 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "nix nought nothing";
+				TargetAttributes = {
+					5BADB4D11B91BCE400F83202 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					5BADB4E51B91BCEF00F83202 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5BADB4D11B91BCE400F83202;
+					};
+					5BADB4F01B91BCEF00F83202 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5BADB4D11B91BCE400F83202;
+					};
+				};
+			};
+			buildConfigurationList = 5BADB4CD1B91BCE300F83202 /* Build configuration list for PBXProject "KeyBoardActionDetectPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BADB4C91B91BCE200F83202;
+			productRefGroup = 5BADB4D31B91BCE500F83202 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BADB4D11B91BCE400F83202 /* KeyBoardActionDetectPractice */,
+				5BADB4E51B91BCEF00F83202 /* KeyBoardActionDetectPracticeTests */,
+				5BADB4F01B91BCEF00F83202 /* KeyBoardActionDetectPracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BADB4D01B91BCE400F83202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BADB4E01B91BCE800F83202 /* LaunchScreen.storyboard in Resources */,
+				5BADB4DD1B91BCE800F83202 /* Assets.xcassets in Resources */,
+				5BADB4DB1B91BCE800F83202 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BADB4E41B91BCEF00F83202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BADB4EF1B91BCEF00F83202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BADB4CE1B91BCE400F83202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BADB4D81B91BCE700F83202 /* WebViewController.swift in Sources */,
+				5BADB4D61B91BCE600F83202 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BADB4E21B91BCEF00F83202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BADB4EB1B91BCEF00F83202 /* KeyBoardActionDetectPracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BADB4ED1B91BCEF00F83202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BADB4F61B91BCEF00F83202 /* KeyBoardActionDetectPracticeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BADB4E81B91BCEF00F83202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BADB4D11B91BCE400F83202 /* KeyBoardActionDetectPractice */;
+			targetProxy = 5BADB4E71B91BCEF00F83202 /* PBXContainerItemProxy */;
+		};
+		5BADB4F31B91BCEF00F83202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BADB4D11B91BCE400F83202 /* KeyBoardActionDetectPractice */;
+			targetProxy = 5BADB4F21B91BCEF00F83202 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BADB4D91B91BCE800F83202 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BADB4DA1B91BCE800F83202 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BADB4DE1B91BCE800F83202 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BADB4DF1B91BCE800F83202 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BADB4F81B91BCEF00F83202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BADB4F91B91BCEF00F83202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BADB4FB1B91BCEF00F83202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeyBoardActionDetectPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sttir.KeyBoardActionDetectPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BADB4FC1B91BCEF00F83202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeyBoardActionDetectPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sttir.KeyBoardActionDetectPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BADB4FE1B91BCEF00F83202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeyBoardActionDetectPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sttir.KeyBoardActionDetectPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyBoardActionDetectPractice.app/KeyBoardActionDetectPractice";
+			};
+			name = Debug;
+		};
+		5BADB4FF1B91BCEF00F83202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeyBoardActionDetectPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sttir.KeyBoardActionDetectPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyBoardActionDetectPractice.app/KeyBoardActionDetectPractice";
+			};
+			name = Release;
+		};
+		5BADB5011B91BCEF00F83202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeyBoardActionDetectPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sttir.KeyBoardActionDetectPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyBoardActionDetectPractice;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5BADB5021B91BCEF00F83202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeyBoardActionDetectPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sttir.KeyBoardActionDetectPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyBoardActionDetectPractice;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BADB4CD1B91BCE300F83202 /* Build configuration list for PBXProject "KeyBoardActionDetectPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BADB4F81B91BCEF00F83202 /* Debug */,
+				5BADB4F91B91BCEF00F83202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BADB4FA1B91BCEF00F83202 /* Build configuration list for PBXNativeTarget "KeyBoardActionDetectPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BADB4FB1B91BCEF00F83202 /* Debug */,
+				5BADB4FC1B91BCEF00F83202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BADB4FD1B91BCEF00F83202 /* Build configuration list for PBXNativeTarget "KeyBoardActionDetectPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BADB4FE1B91BCEF00F83202 /* Debug */,
+				5BADB4FF1B91BCEF00F83202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BADB5001B91BCEF00F83202 /* Build configuration list for PBXNativeTarget "KeyBoardActionDetectPracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BADB5011B91BCEF00F83202 /* Debug */,
+				5BADB5021B91BCEF00F83202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BADB4CA1B91BCE300F83202 /* Project object */;
+}

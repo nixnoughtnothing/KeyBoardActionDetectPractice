@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="US1-c1-qaR">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="WcY-gy-kv5">
+            <objects>
+                <navigationController id="US1-c1-qaR" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LPd-Mc-PUb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Jxt-WQ-6nC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CJV-4Q-TCY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-838" y="464"/>
+        </scene>
+        <!--WebView-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="WebViewController" customModule="KeyBoardActionDetectPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="beN-cZ-gUz">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90588235294117647" green="0.90588235294117647" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="beN-cZ-gUz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="1Qp-ob-qWv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="beN-cZ-gUz" secondAttribute="bottom" id="3O6-r1-6Oh"/>
+                            <constraint firstAttribute="trailing" secondItem="beN-cZ-gUz" secondAttribute="trailing" id="CJe-bE-shT"/>
+                            <constraint firstItem="beN-cZ-gUz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cIO-Gf-x5H"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" title="WebView" id="h6d-ze-dRd">
+                        <leftBarButtonItems>
+                            <barButtonItem title="back" id="pdC-kW-X38">
+                                <connections>
+                                    <action selector="goBack" destination="beN-cZ-gUz" id="Fju-iD-4D8"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="next" id="cTl-fk-ZG2">
+                                <connections>
+                                    <action selector="goForward" destination="beN-cZ-gUz" id="lkc-ZI-Njr"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="refresh" id="Qso-oF-Nnq">
+                                <connections>
+                                    <action selector="reload" destination="beN-cZ-gUz" id="gUz-h5-BtO"/>
+                                </connections>
+                            </barButtonItem>
+                        </leftBarButtonItems>
+                        <barButtonItem key="rightBarButtonItem" systemItem="stop" id="jEZ-e6-dlP">
+                            <connections>
+                                <action selector="stopLoading" destination="beN-cZ-gUz" id="b4H-gz-juY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="webView" destination="beN-cZ-gUz" id="hIO-Gn-l4O"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="14" y="429"/>
+        </scene>
+    </scenes>
+</document>
