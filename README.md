@@ -1,4 +1,4 @@
-# KeyBoardActionDetectPractice
+# KeyboardActionDetectPractice
 
 ### Demo
 
